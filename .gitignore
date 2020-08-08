@@ -1,1 +1,3 @@
 .idea/
+__pycache__/
+microservice/books/__pycache__/books_model.cpython-38.pyc

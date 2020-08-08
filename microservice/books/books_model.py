@@ -1,7 +1,7 @@
 import uuid
 import collections
 import logging
-from flask import jsonify
+from flask import jsonify, abort
 
 
 class Book(object):
@@ -78,6 +78,4 @@ class Books(object):
         if book_id in self.books:
             return self.books[book_id]
         else:
-            raise ValueError(f'Book {book_id} does not exists')
-
-
+           abort(404)
