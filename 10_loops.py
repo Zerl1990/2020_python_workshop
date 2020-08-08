@@ -7,6 +7,7 @@ while counter < 10:
 print(f'Counter is greater or equal to 10')
 
 
+# range function creates a sequence from 0 to 9
 print("Loop from 0 to 9")
 for number in range(10):
     print(number)

@@ -1,3 +1,6 @@
+# type function return the type of the variables.
+# for example, for number variable, it will return int
+
 number = 5
 print("Number Type:")
 print(type(number))
@@ -19,7 +22,7 @@ print("Boolean Type:")
 print(type(boolean))
 
 arr = [0, 1, 2, 3]
-print("Arr Type:")
+print("List Type:")
 print(type(arr))
 
 

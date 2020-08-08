@@ -1,3 +1,4 @@
+# Import time and os library, part of standard libraries
 import time
 import os
 

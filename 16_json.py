@@ -1,3 +1,4 @@
+# Response from server
 my_dictionary = {
   "meta": {
     "name": "openaq-api",
@@ -17,7 +18,13 @@ my_dictionary = {
     }
   ]
 }
+
+
+# Print response type
 print(f'My response type: {type(my_dictionary)}')
+
+
+# Print dictionary information
 print(my_dictionary)
 
 
