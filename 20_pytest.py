@@ -27,3 +27,8 @@ def test_add(a):
 @pytest.mark.parametrize("a", [ (1), (2), (3), (4) ])
 def test_number(a):
     print(a)
+
+# Ejecutar
+# 1. Abrir terminal
+# 2. Muevete a la carpeta donde esta el script
+# 3. Ejecuta pytest 20_pytest.py -v
